@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #002029;
+  --second-color: #00303d;
+  --third-color: #004052;
+  --fourth-color: #005066;
+  --fifth-color: #00607a;
+  --accent-color: #60e3dd;
+  --font-color: #f6f5ed;
+  --off-white: #ebebeb;
+  --off-black: #0f0f0f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  /* background: #022c43; */
+  background: var(--off-black);
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
