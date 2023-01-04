@@ -8,13 +8,14 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import './Navbar.scss';
-// import logo
+import M from "../../assets/images/M.png";
+
 
 const Navbar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        <img src="https://via.placeholder.com/50" alt="placeholder" />
+        <img src={M}alt="placeholder" />
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">

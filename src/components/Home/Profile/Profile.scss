@@ -1,0 +1,20 @@
+$second-color: #00303d;
+
+.profile-container {
+  .image-wrapper {
+    display: flex;
+    max-width: 45%;
+    margin: 3% 3% 0 auto;
+  }
+
+  img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.3s ease-out;
+
+    &:hover {
+      filter: grayscale(0%);
+      padding: 0;
+    }
+  }
+}

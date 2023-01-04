@@ -24,7 +24,6 @@ body {
   margin: 0;
   font: 300 11px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #444;
-  /* background: #022c43; */
   background: var(--off-black);
   overflow: hidden;
   display: block;

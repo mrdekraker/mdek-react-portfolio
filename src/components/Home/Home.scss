@@ -1,0 +1,102 @@
+$primary-color: #002029;
+$second-color: #00303d;
+$third-color: #004052;
+$fourth-color: #005066;
+$fifth-color: #00607a;
+$accent-color: #60e3dd;
+$font-color: #f6f5ed;
+$gray: #787878;
+$off-white: #ebebeb;
+$off-black: #0f0f0f;
+
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+
+  h1 {
+    color: $font-color;
+    font-size: 5.3rem;
+    margin: 0;
+    font-family: "Coolvetica", sans-serif;
+    font-weight: 400;
+
+    &:before {
+      content: "<h1>";
+      font-family: "La Belle Aurore", cursive;
+      color: $accent-color;
+      font-size: 1.8rem;
+      position: absolute;
+      margin-top: -2rem;
+      left: 0.3rem;
+      opacity: 0.6;
+    }
+
+    &:after {
+      content: "</h1>";
+      font-family: "La Belle Aurore", cursive;
+      color: $accent-color;
+      font-size: 1.8rem;
+      position: absolute;
+      margin-top: 1.8rem;
+      margin-left: 2rem;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+
+    img {
+      width: 5rem;
+      // margin-left: 2rem;
+      margin-right: 0.3rem;
+      opacity: 0;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    color: $gray;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+    animation: fadeIn 1s 1.8s backwards;
+    border-bottom: 1px solid $fifth-color;
+    width: 55%;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  .flat-button {
+    color: $accent-color;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 1rem 1.8rem;
+    border: 1px solid $accent-color;
+    margin-top: 2.5rem;
+    display: inline-block;
+    animation: fadeIn 1s 2s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      // background-color: $accent-color;
+      background: rgba($accent-color, 0.45);
+      color: $font-color;
+      box-shadow: rgba(143, 143, 143, 0.25) 0px 14px 28px,
+        rgba(139, 139, 139, 0.22) 0px 10px 10px;
+    }
+  }
+}
