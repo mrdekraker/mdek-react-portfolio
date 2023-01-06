@@ -1,6 +1,6 @@
-import  { Outlet }  from 'react-router-dom';
-import Navbar from '../Navbar/Navbar';
-import './Layout.scss';
+import { Outlet } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
+import "./Layout.scss";
 
 const Layout = () => {
   return (
@@ -18,6 +18,6 @@ const Layout = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Layout;
