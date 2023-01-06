@@ -9,12 +9,12 @@ import Portfolio from "./components/Portfolio/Portfolio";
 function App() {
   return (
     <>
-      <Routes location>
+      <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route index path="about" element={<About />} />
-          <Route index path="contact" element={<Contact />} />
-          <Route index path="portfolio" element={<Portfolio />} />
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="portfolio" element={<Portfolio />} />
         </Route>
       </Routes>
     </>
