@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faUser, faEnvelope, faFolderOpen } from '@fortawesome/free-solid-svg-icons';
 import {
   faLinkedin,
   faGithub,
@@ -34,6 +34,13 @@ const Navbar = () => {
           className="contact-link"
           to="/contact">
           <FontAwesomeIcon icon={faEnvelope} />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="portfolio-link"
+          to="/portfolio">
+          <FontAwesomeIcon icon={faFolderOpen} />
         </NavLink>
       </nav>
       <ul>

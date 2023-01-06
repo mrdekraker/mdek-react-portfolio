@@ -17,4 +17,11 @@ $second-color: #00303d;
       padding: 0;
     }
   }
+
+  // hide image on mobile
+  @media (max-width: 768px) {
+    .image-wrapper {
+      display: none;
+    }
+  }
 }

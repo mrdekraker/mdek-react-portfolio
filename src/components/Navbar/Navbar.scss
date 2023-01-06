@@ -69,7 +69,8 @@ $off-black: #0f0f0f;
 
       &:after {
         content: "";
-        font-size: 10px;
+        font-size: 0.9rem;
+        color: $accent-color;
         letter-spacing: 2px;
         position: absolute;
         bottom: 0;
@@ -95,6 +96,11 @@ $off-black: #0f0f0f;
     a.contact-link {
       &:after {
         content: "CONTACT";
+      }
+    }
+    a.portfolio-link {
+      &:after {
+        content: "PORTFOLIO";
       }
     }
 

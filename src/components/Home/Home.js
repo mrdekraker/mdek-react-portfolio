@@ -4,20 +4,22 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import Profile from './Profile/Profile';
+import Loader from 'react-loaders';
 
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = ['a', 'r', 'k', '', 'D', 'e', 'K', 'r', 'a', 'k', 'e', 'r', ',']
-  const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
+  const nameArray = ['a', 'r', 'k', ' ', 'D', 'e', 'K', 'r', 'a', 'k', 'e', 'r', ',']
+  const jobArray = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass("text-animate-hover");
     }, 4000);
   }, []);
 
   return (
+    <>
       <div className="container home-page">
         <div className="text-zone">
           <h1>
@@ -25,13 +27,13 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
-              idx={15}
+              index={12}
             />
             <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={18}
+              index={25}
             />
           </h1>
           <h2>
@@ -41,9 +43,11 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+        </div>
+        <Profile />
       </div>
-      <Profile />
-    </div>
+      <Loader type="line-scale-pulse-out" />
+    </>
   );
 }
 
