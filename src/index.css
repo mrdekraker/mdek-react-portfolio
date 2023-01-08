@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
+
 :root {
   --primary-color: #002029;
   --second-color: #00303d;
@@ -8,6 +10,8 @@
   --font-color: #f6f5ed;
   --off-white: #ebebeb;
   --off-black: #0f0f0f;
+  --maple-blue: #00205b;
+  --maple-white: #ffffff;
 }
 
 *,
