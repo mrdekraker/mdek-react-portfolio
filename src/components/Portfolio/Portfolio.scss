@@ -11,4 +11,57 @@ $leafs: #00205b;
 $leafs-white: #ffffff;
 
 .portfolio-page {
+  .portfolio-zone {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    max-width: 80%;
+
+    .project-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .project-card {
+      // center background image
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      // set width and height
+      width: 20%;
+      height: 45rem;
+      // set text in the middle
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .project-text {
+        height: 60%;
+        background: rgba($second-color, 0.9);
+        color: $off-black;
+        font-size: 1.5rem;
+        text-align: center;
+        overflow: hidden;
+        padding: 1rem;
+      }
+
+      h3 {
+        font-size: 3rem;
+        color: $off-white;
+        text-align: center;
+      }
+
+      h4 {
+        font-size: 1.5rem;
+        text-align: center;
+
+        a {
+          color: $accent-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
