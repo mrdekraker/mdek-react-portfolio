@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import skills from '../assets/images/skillsImg.jpg';
 
 const MySkills = () => {
+
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   return (

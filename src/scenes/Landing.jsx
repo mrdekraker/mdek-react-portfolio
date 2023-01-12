@@ -60,7 +60,7 @@ const Landing = ({ setSelectedPage }) => {
 
         {/* CALL TO ACTIONS */}
         <motion.div
-          className="flex mt-5 "
+          className="flex mt-5 justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -72,23 +72,21 @@ const Landing = ({ setSelectedPage }) => {
           <AnchorLink
             className="bg-gradient-rainblue text-deep_blue rounded-sm py-3 px-7 font-semibold hover:text-white transition duration-500"
             onClick={() => setSelectedPage("contact")}
-            href="#contact"
-          >
+            href="#contact">
             Contact Me
           </AnchorLink>
           <AnchorLink
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
             onClick={() => setSelectedPage("contact")}
-            href="#contact"
-          >
-            <div className="bg-deep_blue hover:text-red transition duraction-500 w-full h-full flex items-center justify-center font-playfair px-10">
+            href="#contact">
+            <div className="bg-deep_blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center font-playfair px-10">
               Let's Talk!
             </div>
           </AnchorLink>
         </motion.div>
-        
+
         <motion.div
-          className="flex mt-5 "
+          className="flex mt-5 justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -99,8 +97,6 @@ const Landing = ({ setSelectedPage }) => {
           }}>
           <SocialMediaIcons />
         </motion.div>
-        
-        
       </div>
     </section>
   );
