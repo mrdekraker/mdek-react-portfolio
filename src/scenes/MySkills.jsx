@@ -72,8 +72,8 @@ const MySkills = () => {
                 Experience
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-third absolute right-0 top-0 z-[-1]" />
-            <p className="mt-5 hover:text-accent duration-500">
+            <div className="w-1/2 md:w-3/4 h-32 bg-third absolute right-0 top-0 z-[-1] opacity-80" />
+            <p className="z-40 mt-5 hover:text-accent duration-500">
               HTML, CSS, JavaScript, React, NodeJS, MongoDB, GitHub, Photoshop,
               Bootstrap, Tailwind, Framer Motion, Express, SWA
             </p>
@@ -100,8 +100,8 @@ const MySkills = () => {
                 Front End
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
-            <p className="mt-5 hover:text-accent duration-500">
+            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1] opacity-80" />
+            <p className="z-40 mt-5 hover:text-accent duration-500">
               CSS, React, Bootstrap, Tailwind, Framer Motion, JavaScript,
               Handlebars
             </p>
@@ -128,8 +128,8 @@ const MySkills = () => {
                 Back End
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-fifth absolute right-0 top-0 z-[-1]" />
-            <p className="mt-5 hover:text-accent duration-500">
+            <div className="w-1/2 md:w-3/4 h-32 bg-fifth absolute right-0 top-0 z-[-1] opacity-80" />
+            <p className="z-40 mt-5 hover:text-accent duration-500">
               NodeJS, MongoDB, MySQL, Express
             </p>
           </div>

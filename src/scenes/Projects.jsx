@@ -34,7 +34,7 @@ const projectVariant = {
 
 const Project = ({ title, subtitle, link }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-off_white z-30 flex flex-col justify-center items-center text-center p-16 text-deep_blue`;
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep_blue text-underline`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
   
   return (
@@ -43,6 +43,7 @@ const Project = ({ title, subtitle, link }) => {
         <a href={link} rel="noreferrer" target="_blank" className="hover:underline hover:text-accent">
           <p className="text-2xl font-playfair">{title}</p>
         </a>
+        <span className="text-red">(Click the link above)</span>
         <p className="mt-7">{subtitle}</p>
       </div>
       <img
