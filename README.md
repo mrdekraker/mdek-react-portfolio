@@ -61,5 +61,3 @@ If you have any questions, please contact me at:
 - GitHub: [mrdekraker](https://github.com/mrdekraker)
 - Email: [mrdekraker](mailto:mrdekraker@gmail.com)
 - Twitter: [@DekrakerMark](https://twitter.com/DekrakerMark)
-
----

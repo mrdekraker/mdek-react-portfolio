@@ -65,8 +65,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            MERN Full Stack Developer / JavaScript Export /<br /> Lifelong
-            Learner
+            MERN Full Stack Developer / Lifelong Learner
           </p>
         </motion.div>
 
