@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/mdek-react-portfolio/static/css/main.2c625f2c.css",
-    "main.js": "/mdek-react-portfolio/static/js/main.0b61af52.js",
-    "static/js/787.6b96e027.chunk.js": "/mdek-react-portfolio/static/js/787.6b96e027.chunk.js",
+    "main.css": "/mdek-react-portfolio/static/css/main.bb5f593a.css",
+    "main.js": "/mdek-react-portfolio/static/js/main.86464b64.js",
+    "static/media/m&a.png": "/mdek-react-portfolio/static/media/m&a.0584c304df9ee0218112.png",
     "static/media/mdek.png": "/mdek-react-portfolio/static/media/mdek.83556b2e85bc26f0278b.png",
+    "static/media/jate.png": "/mdek-react-portfolio/static/media/jate.edf2f90599ee53bf5d8d.png",
     "static/media/zookeeper.png": "/mdek-react-portfolio/static/media/zookeeper.efa87f43779a7344807a.png",
-    "static/media/bigBrother.png": "/mdek-react-portfolio/static/media/bigBrother.249d5b10007dbcec394d.png",
+    "static/media/project-1.png": "/mdek-react-portfolio/static/media/project-1.249d5b10007dbcec394d.png",
     "static/media/weatherApp.png": "/mdek-react-portfolio/static/media/weatherApp.a7742717992b16fa45bb.png",
+    "static/media/mDeKraker_resume.pdf": "/mdek-react-portfolio/static/media/mDeKraker_resume.0d17b1492b8d85a0b611.pdf",
     "static/media/roundTable.png": "/mdek-react-portfolio/static/media/roundTable.607faeb987a8be74e4e1.png",
     "static/media/teamTeamwork.png": "/mdek-react-portfolio/static/media/teamTeamwork.cdb27bd893d57a115191.png",
-    "static/media/M.png": "/mdek-react-portfolio/static/media/M.d233d669f6685bce7427.png",
-    "static/media/helvetica-neu.ttf": "/mdek-react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/mdek-react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff2": "/mdek-react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/skillsImg.jpg": "/mdek-react-portfolio/static/media/skillsImg.7658abaac76c7abfe8d7.jpg",
+    "static/media/brush.png": "/mdek-react-portfolio/static/media/brush.85c9bab5ba2d7dcae1e3.png",
+    "static/media/github-mark-white.svg": "/mdek-react-portfolio/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/mdek-react-portfolio/index.html",
-    "main.2c625f2c.css.map": "/mdek-react-portfolio/static/css/main.2c625f2c.css.map",
-    "main.0b61af52.js.map": "/mdek-react-portfolio/static/js/main.0b61af52.js.map",
-    "787.6b96e027.chunk.js.map": "/mdek-react-portfolio/static/js/787.6b96e027.chunk.js.map"
+    "static/media/close-icon.svg": "/mdek-react-portfolio/static/media/close-icon.36a1df96f812b5f4c12f817f90a904c6.svg",
+    "static/media/menu-icon.svg": "/mdek-react-portfolio/static/media/menu-icon.9cbfc3090b4b0aec575128df8ede3633.svg",
+    "main.bb5f593a.css.map": "/mdek-react-portfolio/static/css/main.bb5f593a.css.map",
+    "main.86464b64.js.map": "/mdek-react-portfolio/static/js/main.86464b64.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c625f2c.css",
-    "static/js/main.0b61af52.js"
+    "static/css/main.bb5f593a.css",
+    "static/js/main.86464b64.js"
   ]
 }
