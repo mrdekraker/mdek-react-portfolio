@@ -3,9 +3,21 @@ import useMediaQuery from "../hooks/useMediaQuery"
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import mdek from "../assets/images/mdek.png";
+import mResume from "../assets/mDeKraker_resume.pdf";
+
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+
+  const downloadResume = () => {
+    // download file
+    const link = document.createElement("a");
+    link.href = mResume;
+    link.setAttribute("download", "mDeKraker_resume.pdf");
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  };
 
   return (
     <section
@@ -75,14 +87,13 @@ const Landing = ({ setSelectedPage }) => {
             href="#contact">
             Contact Me
           </AnchorLink>
-          <AnchorLink
+          <button
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact">
+            onClick={downloadResume} >
             <div className="bg-deep_blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center font-playfair px-10">
-              Let's Talk!
+              Resumé
             </div>
-          </AnchorLink>
+          </button>
         </motion.div>
 
         <motion.div

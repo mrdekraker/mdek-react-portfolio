@@ -4,7 +4,7 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
   const selectedStyles = `relative bg-accent before:absolute before:w-6 before:h-6
     before:rounded-full before:border-2 before:border-accent before:left-[-50%]
     before:top-[-50%]`;
-  
+
   return (
     <div className="flex flex-col gap-6 fixed top-[60%] right-7">
       <AnchorLink
@@ -25,12 +25,6 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
         } w-3 h-3 rounded-full`}
         href={`#projects`}
         onClick={() => setSelectedPage('projects')} />
-      <AnchorLink
-        className={`${
-          selectedPage === 'testimonials' ? selectedStyles : "bg-dark_grey"
-        } w-3 h-3 rounded-full`}
-        href={`#testimonials`}
-        onClick={() => setSelectedPage('testimonials')} />
       <AnchorLink
         className={`${
           selectedPage === 'contact' ? selectedStyles : "bg-dark_grey"

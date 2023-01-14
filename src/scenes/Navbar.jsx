@@ -3,6 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from '../hooks/useMediaQuery';
 import menuIcon from '../assets/images/menu-icon.svg';
 import closeIcon from '../assets/images/close-icon.svg';
+import mResume from '../assets/mDeKraker_resume.pdf';
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
@@ -16,6 +17,16 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
       {page}
     </AnchorLink>
   )
+};
+
+const downloadResume = () => {
+  // download file
+  const link = document.createElement("a");
+  link.href = mResume;
+  link.setAttribute("download", "mDeKraker_resume.pdf");
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
 };
 
 
@@ -47,11 +58,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
-              page="Testimonials"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
+            <button
+              className="hover:text-accent transition duration-500"
+              onClick={downloadResume}>
+              Resume
+            </button>
             <Link
               page="Contact"
               selectedPage={selectedPage}
@@ -92,11 +103,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <Link
-                page="Testimonials"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
+              <button
+                className="hover:text-accent transition duration-500"
+                onClick={downloadResume}>
+                Resume
+              </button>
               <Link
                 page="Contact"
                 selectedPage={selectedPage}

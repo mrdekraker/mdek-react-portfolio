@@ -40,7 +40,7 @@ const Project = ({ title, subtitle, link }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <a href={link} rel="noreferrer" target="_blank">
+        <a href={link} rel="noreferrer" target="_blank" className="hover:underline hover:text-accent">
           <p className="text-2xl font-playfair">{title}</p>
         </a>
         <p className="mt-7">{subtitle}</p>
