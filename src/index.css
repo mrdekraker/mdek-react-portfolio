@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  background-color: #010026;
+  @apply text-white;
+}
+
+/* :root {
+  --primary-color: #002029;
+  --second-color: #00303d;
+  --third-color: #004052;
+  --fourth-color: #005066;
+  --fifth-color: #00607a;
+  --accent-color: #60e3dd;
+  --font-color: #f6f5ed;
+  --off-white: #ebebeb;
+  --off-black: #0f0f0f;
+  --maple-blue: #00205b;
+  --maple-white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background: var(--off-black);
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
