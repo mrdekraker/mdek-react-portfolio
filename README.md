@@ -1,1 +1,0 @@
-# mdek-react-portfolio
