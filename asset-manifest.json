@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/mdek-react-portfolio/static/css/main.905fe219.css",
-    "main.js": "/mdek-react-portfolio/static/js/main.2ef8b01b.js",
+    "main.css": "/mdek-react-portfolio/static/css/main.cc7c632c.css",
+    "main.js": "/mdek-react-portfolio/static/js/main.7d7f9590.js",
     "static/media/m&a.png": "/mdek-react-portfolio/static/media/m&a.0584c304df9ee0218112.png",
-    "static/media/mdek.png": "/mdek-react-portfolio/static/media/mdek.83556b2e85bc26f0278b.png",
+    "static/media/mdek4.png": "/mdek-react-portfolio/static/media/mdek4.d1815bbb9407d1994322.png",
     "static/media/jate.png": "/mdek-react-portfolio/static/media/jate.edf2f90599ee53bf5d8d.png",
     "static/media/zookeeper.png": "/mdek-react-portfolio/static/media/zookeeper.efa87f43779a7344807a.png",
     "static/media/project-1.png": "/mdek-react-portfolio/static/media/project-1.249d5b10007dbcec394d.png",
@@ -17,11 +17,11 @@
     "index.html": "/mdek-react-portfolio/index.html",
     "static/media/close-icon.svg": "/mdek-react-portfolio/static/media/close-icon.36a1df96f812b5f4c12f817f90a904c6.svg",
     "static/media/menu-icon.svg": "/mdek-react-portfolio/static/media/menu-icon.9cbfc3090b4b0aec575128df8ede3633.svg",
-    "main.905fe219.css.map": "/mdek-react-portfolio/static/css/main.905fe219.css.map",
-    "main.2ef8b01b.js.map": "/mdek-react-portfolio/static/js/main.2ef8b01b.js.map"
+    "main.cc7c632c.css.map": "/mdek-react-portfolio/static/css/main.cc7c632c.css.map",
+    "main.7d7f9590.js.map": "/mdek-react-portfolio/static/js/main.7d7f9590.js.map"
   },
   "entrypoints": [
-    "static/css/main.905fe219.css",
-    "static/js/main.2ef8b01b.js"
+    "static/css/main.cc7c632c.css",
+    "static/js/main.7d7f9590.js"
   ]
 }
