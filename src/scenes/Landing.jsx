@@ -2,7 +2,7 @@ import SocialMediaIcons from '../components/SocialMediaIcons';
 import useMediaQuery from "../hooks/useMediaQuery"
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import mdek from "../assets/images/mdek.png";
+import mdek from "../assets/images/mdek4.png";
 import mResume from "../assets/mDeKraker_resume.pdf";
 
 
@@ -24,13 +24,13 @@ const Landing = ({ setSelectedPage }) => {
       id="home"
       className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10">
       {/* IMAGE SECTION */}
-      <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32">
+      <div className="mb-14 md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32 bg-cover">
         {isAboveLarge ? (
-          <div className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:w-full  before:h-full before:border-2 before:border-accent before:z-[-1]">
+          <div className="relative z-0 ml-20 before:absolute before:-top-5 before:-left-8 before:w-full  before:h-full before:border-2 before:border-accent before:z-[-1]">
             <img
               src={mdek}
               alt="profile"
-              className="grayscale-[100%] hover:grayscale-[0%]
+              className="grayscale-[100%] hover:grayscale-[0%] 
               hover:filter transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
             />
           </div>
