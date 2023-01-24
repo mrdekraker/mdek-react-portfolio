@@ -16,6 +16,20 @@ function App() {
 
   useEffect(() => {
     const handleSCroll = () => {
+      // highlight dotgroup when user scrolls to the corresponding section
+      
+      if (window.scrollY >= 550 && window.scrollY < 1000) {
+        setSelectedPage('skills');
+      }
+
+      if (window.scrollY >= 1500 && window.scrollY < 2000) {
+        setSelectedPage('projects');
+      }
+
+      if (window.scrollY >= 3000 && window.scrollY < 4000) {
+        setSelectedPage('contact');
+      }
+
       if (window.scrollY === 0) {
         setIsTopOfPage(true);
         setSelectedPage('home');
@@ -36,6 +50,8 @@ function App() {
       <div className="w-5/6 mx-auto md:h-full">
         {isAboveMediumScreens && (
           <DotGroup
+            // highlight dots when user scrolls to the corresponding section
+
             selectedPage={selectedPage}
             setSelectedPage={setSelectedPage}
           />
