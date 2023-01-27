@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import project1 from '../assets/images/project-1.png';
 import project2 from '../assets/images/teamTeamwork.png'
 import project3 from '../assets/images/weatherApp.png'
-import project4 from '../assets/images/zookeeper.png'
+import project4 from '../assets/images/myStores.png'
 import project5 from '../assets/images/roundTable.png'
 import project6 from '../assets/images/jate.png'
 
@@ -118,9 +118,9 @@ const Projects = () => {
             EASY TO USE
           </div>
           <Project
-            link="https://github.com/mrdekraker/zookeeper"
+            link="https://github.com/RDCERP/my-stores"
             title="Project 4"
-            subtitle="Zookeeper: This project was created to create, update, and maintain zookeeper and animal information with SQL, EXPRESS, & NodeJS."
+            subtitle="MyStores: This was a full stack MERN application. It was created as a culmination of facebook and yelp. It allows users to post, comment, and rate stores, and general social media features."
           />
 
           {/* ROW 3 */}
