@@ -3,6 +3,7 @@ import DotGroup from './scenes/DotGroup';
 import Landing from './scenes/Landing';
 import { useEffect, useState } from 'react';
 import LineGradient from './components/LineGradient';
+import Bio from './scenes/Bio';
 import MySkills from './scenes/MySkills';
 import Projects from './scenes/Projects';
 import Contact from './scenes/Contact';
@@ -18,17 +19,27 @@ function App() {
     const handleSCroll = () => {
       // highlight dotgroup when user scrolls to the corresponding section
       
-      if (window.scrollY >= 550 && window.scrollY < 1000) {
+      if (window.scrollY >= 0 && window.scrollY < 800) {
+        setSelectedPage('home');
+      }
+
+      if (window.scrollY >= 800 && window.scrollY < 1600) {
+        setSelectedPage('bio');
+      }
+
+      if (window.scrollY >= 1600 && window.scrollY < 2600) {
         setSelectedPage('skills');
       }
 
-      if (window.scrollY >= 1500 && window.scrollY < 2000) {
+      if (window.scrollY >= 2600 && window.scrollY < 4500) {
         setSelectedPage('projects');
       }
 
-      if (window.scrollY >= 3000 && window.scrollY < 4000) {
+      if (window.scrollY >= 4500 && window.scrollY < 5000) {
         setSelectedPage('contact');
       }
+
+
 
       if (window.scrollY === 0) {
         setIsTopOfPage(true);
@@ -50,13 +61,15 @@ function App() {
       <div className="w-5/6 mx-auto md:h-full">
         {isAboveMediumScreens && (
           <DotGroup
-            // highlight dots when user scrolls to the corresponding section
-
             selectedPage={selectedPage}
             setSelectedPage={setSelectedPage}
           />
         )}
         <Landing setSelectedPage={setSelectedPage} />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto mb-2 md:h-full">
+        <Bio />
       </div>
       <LineGradient />
       <div className="w-5/6 mx-auto mb-24 md:h-full">

@@ -7,10 +7,10 @@ const Footer = () => {
         <div
           // center everything
           className="md:flex justify-center md:justify-between text-center">
-          <p className="font-playfair text-md text-white">
+          <span className="font-playfair text-md text-white">
             &#169;2022 MDeKraker. All Rights Reserved
             <SocialMediaIcons />
-          </p>
+          </span>
         </div>
       </div>
     </footer>

@@ -34,8 +34,17 @@ const Contact = () => {
           <p className="font-playfair font-semibold text-4xl">
             <span className="text-accent">CONTACT ME</span> TO GET STARTED
           </p>
-          <div className="flex md:justify-end my-5">
+          <div className="flex md:justify-end my-3">
             <LineGradient width="w-1/2" />
+          </div>
+          <div className="flex md:justify-end">
+            <span>
+              Email me directly at{" "}
+              <a className="text-accent" href="mailto:mrdekraker@gmail.com">
+                mrdekraker@gmail.com
+              </a>
+              {" "}or fill out the form below.
+            </span>
           </div>
         </div>
       </motion.div>
