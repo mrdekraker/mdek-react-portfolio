@@ -32,19 +32,33 @@ const projectVariant = {
 }
 
 
-const Project = ({ title, subtitle, link }) => {
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+const Project = ({ projectName, title, subtitle, gitlink, deploylink, language }) => {
+  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-95 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep_blue text-underline`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
   
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <a href={link} rel="noreferrer" target="_blank" className="hover:underline hover:text-accent">
-          <p className="text-2xl font-playfair">{title}</p>
+        <p className="font-semibold text-3xl font-playfair">{projectName}</p>
+        <a
+          href={gitlink}
+          rel="noreferrer"
+          target="_blank"
+          className="text-red underline hover:underline hover:text-accent">
+          <p className="text-2xl font-playfair">GitHub</p>
         </a>
-        <span className="text-red">(Click the link above)</span>
+        {deploylink && (
+          <a
+            href={deploylink}
+            rel="noreferrer"
+            target="_blank"
+            className="text-red underline hover:underline hover:text-accent">
+            <p className="text-2xl font-playfair">Deploy</p>
+          </a>
+        )}
         <p className="mt-7">{subtitle}</p>
+        <p className="mt-7">{language}</p>
       </div>
       <img
         className="w-[400px] h-[400px] object-cover"
@@ -98,41 +112,56 @@ const Projects = () => {
             BEAUTIFUL DESIGNS
           </div>
           <Project
-            link="https://github.com/mrdekraker/SQL-big-brother"
+            projectName="Employee Tracker"
+            gitlink="https://github.com/mrdekraker/SQL-big-brother"
             title="Project 1"
-            subtitle="Employee Tracker: This project was created to analyze the corporate structure of an employee database using SQL."
+            subtitle="Employee Tracker: This project was built to analyze the corporate structure of an employee database using SQL."
+            language="JS, Node.js, Inquirer, MySQL"
           />
           <Project
-            link="https://github.com/mrdekraker/team-teamwork"
+            projectName="Team Teamwork"
+            gitlink="https://github.com/mrdekraker/team-teamwork"
             title="Project 2"
-            subtitle="Team Teamwork: This project was created to generate a webpage that displays a team's basic info using Node.js."
+            subtitle="Team Teamwork: This project was built to generate a webpage that displays a team's basic info using Node.js."
+            language="JS, Node.js, Inquirer, HTML, CSS, Bootstrap"
           />
 
           {/* ROW 2 */}
           <Project
-            link="https://github.com/mrdekraker/weather-app"
+            projectName="Weather App"
+            gitlink="https://github.com/mrdekraker/weather-app"
+            deploylink="https://mrdekraker.github.io/weather-app/"
             title="Project 3"
-            subtitle="Weather App: This project was created to display the weather of a city using the OpenWeather API."
+            subtitle="Weather App: This project was built to display the weather of a city using the OpenWeather API."
+            language="Moment.js, OpenWeather API, HTML, CSS, Bootstrap, JQuery"
           />
           <div className="flex justify-center text-center items-center p-10 bg-secondary max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
             EASY TO USE
           </div>
           <Project
-            link="https://github.com/RDCERP/my-stores"
+            projectName="MyStores"
+            gitlink="https://github.com/RDCERP/my-stores"
+            deploylink="https://my-stores.herokuapp.com/"
             title="Project 4"
             subtitle="MyStores: This was a full stack MERN application. It was created as a culmination of facebook and yelp. It allows users to post, comment, and rate stores, and general social media features."
+            language="MongoDB, Apollo Server, GraphQL, React, Redux, Node.js, Express, Material UI, JWT, Bcrypt, Heroku"
           />
 
           {/* ROW 3 */}
           <Project
-            link="https://github.com/Steezy1416/round-table"
+            projectName="Round Table"
+            gitlink="https://github.com/Steezy1416/round-table"
+            deploylink="https://round-table14.herokuapp.com/"
             title="Project 5"
-            subtitle="Round Table: This project was created to create a chatroom using Socket.io."
+            subtitle="Round Table: This project was built to create a chatroom using Socket.io."
+            language="Socket.io, Node.js, Express, HTML, CSS, Handlebars"
           />
           <Project
-            link="https://github.com/mrdekraker/PWA-Text-Editor"
+            projectName="JATE"
+            gitlink="https://github.com/mrdekraker/PWA-Text-Editor"
             title="Project 6"
             subtitle="JATE: This project is a PWA text editor that allows users to create, edit, and save notes. It uses IndexedDB to store notes."
+            language="JS, Node.js, Express, HTML, CSS, IndexedDB, Webpack"
           />
           <div className="flex justify-center text-center items-center p-10 bg-accent max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
             SMOOTH USER EXPERIENCE

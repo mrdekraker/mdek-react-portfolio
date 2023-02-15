@@ -25,7 +25,7 @@ const Bio = () => {
             MY <span className="text-maple-blue">BIO</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7">
+          <p className="mt-10 mb-7 max-w-[600px]">
             My name is Mark DeKraker (De-Cray-Ker). I am married to a beautiful
             woman named Kayla, and we have a gorgeous daughter together. I am a
             Canadian{" "}
