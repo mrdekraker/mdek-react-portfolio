@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mdek-react-portfolio/static/css/main.454e690e.css",
-    "main.js": "/mdek-react-portfolio/static/js/main.53a39793.js",
+    "main.css": "/mdek-react-portfolio/static/css/main.adc44b92.css",
+    "main.js": "/mdek-react-portfolio/static/js/main.4dc12d3d.js",
     "static/media/family.png": "/mdek-react-portfolio/static/media/family.98a9b68cb43534f6486d.png",
     "static/media/m&a.png": "/mdek-react-portfolio/static/media/m&a.0584c304df9ee0218112.png",
     "static/media/mdek4.png": "/mdek-react-portfolio/static/media/mdek4.d1815bbb9407d1994322.png",
@@ -18,11 +18,11 @@
     "index.html": "/mdek-react-portfolio/index.html",
     "static/media/close-icon.svg": "/mdek-react-portfolio/static/media/close-icon.36a1df96f812b5f4c12f817f90a904c6.svg",
     "static/media/menu-icon.svg": "/mdek-react-portfolio/static/media/menu-icon.9cbfc3090b4b0aec575128df8ede3633.svg",
-    "main.454e690e.css.map": "/mdek-react-portfolio/static/css/main.454e690e.css.map",
-    "main.53a39793.js.map": "/mdek-react-portfolio/static/js/main.53a39793.js.map"
+    "main.adc44b92.css.map": "/mdek-react-portfolio/static/css/main.adc44b92.css.map",
+    "main.4dc12d3d.js.map": "/mdek-react-portfolio/static/js/main.4dc12d3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.454e690e.css",
-    "static/js/main.53a39793.js"
+    "static/css/main.adc44b92.css",
+    "static/js/main.4dc12d3d.js"
   ]
 }
