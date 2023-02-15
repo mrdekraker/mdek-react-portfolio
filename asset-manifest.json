@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mdek-react-portfolio/static/css/main.adc44b92.css",
-    "main.js": "/mdek-react-portfolio/static/js/main.4dc12d3d.js",
+    "main.js": "/mdek-react-portfolio/static/js/main.122bffe5.js",
     "static/media/family.png": "/mdek-react-portfolio/static/media/family.98a9b68cb43534f6486d.png",
     "static/media/m&a.png": "/mdek-react-portfolio/static/media/m&a.0584c304df9ee0218112.png",
     "static/media/mdek4.png": "/mdek-react-portfolio/static/media/mdek4.d1815bbb9407d1994322.png",
@@ -9,9 +9,9 @@
     "static/media/jate.png": "/mdek-react-portfolio/static/media/jate.edf2f90599ee53bf5d8d.png",
     "static/media/project-1.png": "/mdek-react-portfolio/static/media/project-1.249d5b10007dbcec394d.png",
     "static/media/weatherApp.png": "/mdek-react-portfolio/static/media/weatherApp.a7742717992b16fa45bb.png",
-    "static/media/mDeKraker_resume.pdf": "/mdek-react-portfolio/static/media/mDeKraker_resume.01f542398169f2e46a1f.pdf",
     "static/media/roundTable.png": "/mdek-react-portfolio/static/media/roundTable.607faeb987a8be74e4e1.png",
     "static/media/teamTeamwork.png": "/mdek-react-portfolio/static/media/teamTeamwork.cdb27bd893d57a115191.png",
+    "static/media/mDeKraker_resume.pdf": "/mdek-react-portfolio/static/media/mDeKraker_resume.9a6bf9de34291f786f46.pdf",
     "static/media/skillsImg.jpg": "/mdek-react-portfolio/static/media/skillsImg.7658abaac76c7abfe8d7.jpg",
     "static/media/brush.png": "/mdek-react-portfolio/static/media/brush.85c9bab5ba2d7dcae1e3.png",
     "static/media/github-mark-white.svg": "/mdek-react-portfolio/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
@@ -19,10 +19,10 @@
     "static/media/close-icon.svg": "/mdek-react-portfolio/static/media/close-icon.36a1df96f812b5f4c12f817f90a904c6.svg",
     "static/media/menu-icon.svg": "/mdek-react-portfolio/static/media/menu-icon.9cbfc3090b4b0aec575128df8ede3633.svg",
     "main.adc44b92.css.map": "/mdek-react-portfolio/static/css/main.adc44b92.css.map",
-    "main.4dc12d3d.js.map": "/mdek-react-portfolio/static/js/main.4dc12d3d.js.map"
+    "main.122bffe5.js.map": "/mdek-react-portfolio/static/js/main.122bffe5.js.map"
   },
   "entrypoints": [
     "static/css/main.adc44b92.css",
-    "static/js/main.4dc12d3d.js"
+    "static/js/main.122bffe5.js"
   ]
 }
